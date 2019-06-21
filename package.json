@@ -1,0 +1,12 @@
+{
+    "name": "nodered-docker01",
+    "description": "dockerでnoderedを動かす際にgitで管理する。お試し用。",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "test_flows.json",
+            "credentialsFile": "test_flows_cred.json"
+        }
+    }
+}
